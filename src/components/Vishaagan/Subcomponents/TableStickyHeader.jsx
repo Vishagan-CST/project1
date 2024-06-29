@@ -28,10 +28,10 @@ const rows = [
 export default function TableStickyHeader() {
   return (
     <div>
-      <Typography level="body-sm" textAlign="center" sx={{ mb: 2 }}>
+      <Typography level="body-sm" textAlign="center"  fontSize="15px" color="black" sx={{ mb: 2 }}>
         Details About Children
       </Typography>
-      <Sheet sx={{ height: 300, overflow: 'auto' }}>
+      <Sheet sx={{ height: 300, overflow: 'auto',backgroundColor:'lightgreen' }}>
         <Table
           aria-label="table with sticky header"
           stickyHeader
